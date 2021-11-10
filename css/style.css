@@ -125,6 +125,10 @@
           transform: translate(15%, -20%);
 }
 
+.sec-1 .image .img_mobile {
+  display: none;
+}
+
 .sec-1 .box-1 {
   width: 109px;
   height: 109px;
@@ -370,5 +374,42 @@
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   background: #FE6B8E;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .sec-1 .content {
+    display: none;
+  }
+  .sec-1 .image {
+    width: 216px;
+    height: 245px;
+    background: url(../img/bgmobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 5rem;
+    -webkit-transform: translate(15%, -10%);
+            transform: translate(15%, -10%);
+  }
+  .sec-1 .image .img1 {
+    display: none;
+  }
+  .sec-1 .image .img_mobile {
+    display: block;
+    background: none;
+    -webkit-transform: translate(7%, -10%);
+            transform: translate(7%, -10%);
+  }
+  .sec-1 .box-1,
+  .sec-1 .box-2 {
+    display: none;
+  }
+  .sec-2,
+  .sec-3 {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

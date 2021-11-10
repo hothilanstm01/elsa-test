@@ -104,6 +104,9 @@
       transform: translate(15%, -20%);
 
     }
+    .img_mobile{
+      display: none;
+    }
   }
   .box-1{
     width: 109px;
@@ -313,6 +316,44 @@
         transform: rotate(45deg);
         background: #FE6B8E;
       
+    }
+}
+
+@media (max-width: 768px ) {
+  .container{
+    width: 100%;
+  }
+  .sec-1{
+    .content{
+      display: none;
+    }
+    .image{
+      
+      width: 216px;
+      height:245px;
+      background: url(../img/bgmobile.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      text-align: center;
+      margin-top: 5rem;
+      transform: translate(15%, -10%);
+      .img1 {
+        display: none;
+      }
+      .img_mobile{
+        display: block;
+        background: none;
+        transform: translate(7%, -10%);
+      }
+    }
+    .box-1,
+    .box-2{
+      display: none;
+    }
+  }
+    .sec-2,
+    .sec-3{
+      display: none;
     }
 }
 
