@@ -376,39 +376,29 @@
   background: #FE6B8E;
 }
 
-@media (max-width: 1366px) {
+@media (max-width: 1024px) {
   .container {
     width: 100%;
   }
-  .sec-1 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .sec-1 .content {
-    width: 345px;
+    width: 320px;
     margin-right: 60px;
   }
   .sec-1 .content h3 {
-    font-size: 27px;
-    line-height: 50px;
+    font-size: 25px;
+    line-height: 42px;
     padding: 0;
   }
   .sec-1 .content p {
-    font-size: 15px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .sec-1 .content a {
     font-size: 28px;
   }
   .sec-1 .image {
-    position: relative;
-    width: 400px;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    margin-top: 5rem;
+    width: 360px;
+    height: 360px;
   }
   .sec-1 .image .img1 {
     position: absolute;
@@ -458,9 +448,74 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .container {
     width: 100%;
+  }
+  .sec-1 .content {
+    width: 240px;
+    margin-right: 10px;
+  }
+  .sec-1 .content h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .sec-1 .content p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .sec-1 .content a {
+    font-size: 20px;
+  }
+  .sec-1 .image {
+    width: 280px;
+    height: 300px;
+  }
+  .sec-1 .image .img1 {
+    width: 300px;
+    -webkit-transform: translate(0%, -20%);
+            transform: translate(0%, -20%);
+  }
+  .sec-2 .form {
+    width: 400px;
+    margin: 20px 0;
+    margin-left: 30px;
+  }
+  .sec-2 .form .title {
+    padding: 16px 10px;
+  }
+  .sec-2 .form .title h2 {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .sec-2 .form .content-form {
+    padding: 20px;
+  }
+  .sec-2 .form .content-form .form-control input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+  }
+  .sec-2 .form .content-form .form-control .check-box .check input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 0;
+  }
+  .sec-2 .form .content-form .form-control .check-box .check label {
+    font-size: 20px;
+  }
+  .sec-2 .form .content-form button {
+    padding: 16px 0;
+    width: 100%;
+  }
+  .sec-2 .image {
+    width: 340px;
+    height: 744px;
+  }
+  .sec-2 .image .img1 {
+    width: 600px;
+    -webkit-transform: translate(-30%, 30%);
+            transform: translate(-30%, 30%);
   }
   .sec-3 {
     width: 100%;
@@ -470,7 +525,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .container {
     width: 100%;
   }
