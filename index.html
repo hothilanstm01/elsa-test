@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - Ho Thi Lan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="">
+        </header>
+        <section class="sec-1">
+            <div class="content">
+                <h3>APP LUYỆN NÓI
+                    & GIAO TIẾP TIẾNG ANH THỜI 4.0
+                </h3>
+                <p>
+                    Với ELSA Speak - Ai Cũng Có Thể Nói Tiếng Anh Hay!
+                </p>
+                <a class="btn" href="#dangky">Đăng ký ngay</a>
+            </div>
+            <div class="image">
+                <img class="img1" src="img/Phone 13 1.png" alt="">
+            </div>
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+        </section>
+        <section class="sec-2" id="dangky">
+            <form action="" name="form" class="form" id="form" onsubmit = "return validate();">
+                <div class="title">
+                    <h2>
+                        CÙNG ỨNG DỤNG ELSA
+                        NÓI TIẾNG ANH “THẢ GA”
+                    </h2>
+                </div>
+                <div class="content-form">
+                    <div class="form-control">
+                        <label for="">
+                            <span><i class='bx bx-user'></i></span>
+                            <span>Họ tên *</span>
+                        </label>
+                        <input type="text" name="" id="name" >
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="">
+                            <span><i class='bx bx-phone' ></i></span>
+                            <span>Số điện thoại *</span>
+                        </label>
+                        <input type="text" name="" id="phone" >
+                    </div>
+    
+                    <div class="form-control">
+                        <label for="">
+                            <span><i class='bx bx-mail-send' ></i></span>
+                            <span>Email *</span>
+                        </label>
+                        <input type="email" name="" id="email" >
+                    </div>
+
+                    <div class="form-control">
+                        <div class="check-box">
+                            <div class="check">
+                                <input onclick="show1()" type="radio" name="goi" id="checkbox" value="Gói 1 năm: 989.000VND">
+                                <label for="checkbox">Gói học 1 năm</label>
+                            </div>
+                            <div class="check">
+                                <input onclick="show2()" type="radio" name="goi" id="checkbox2" value="Gói trọn đời: 1.995.000VND">
+                                <label for="checkbox2">Gói trọn đời</label>
+                            </div>
+                        </div>
+                        <div id="result1" class="box"><strong>Gói 1 năm: 989.000VND</strong></div>
+                        <div id="result2" class="box"><strong>Gói trọn đời: 1.995.000VND</strong></div>
+                    </div>
+
+                    <button type="submit" class="btn">GỬI ĐĂNG KÝ</button>
+                </div>
+            </form>
+            <div class="image">
+                <img src="img/Phone 15 1.png" alt="" class="img1">
+            </div>
+            <div class="box-1"></div>
+            <div class="box-2"></div>
+            <div class="box-3"></div>
+            <div class="box-4"></div>
+        </section>
+        <section class="sec-3">
+            <img src="img/Screen Shot 2020-08-24 at 15.17 1.png" alt="">
+        </section>
+    </div>
+
+    <!-- js -->
+    <script src="js/index.js"></script>
+</body>
+</html>
